@@ -1,0 +1,125 @@
+.contact_card{
+
+    display: flex;
+    align-items: center;
+    min-height: 400px;
+    min-width: 400px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem auto;
+    gap: 0.5rem;
+    color: #000000;
+    background-color: #c6d3da;
+    border-radius: 18px;
+    box-shadow: rgba(92, 34, 162, 0.202) 0px 30px 90px;
+    
+}
+
+.card_header{
+
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+    background-color: #000000;
+    color: #f4f4f4;
+    border-radius: 18px 18px 0 0;
+    border: 1px solid #000000;
+
+}
+
+svg{
+    position: relative;
+    font-size: 1.25rem;
+    padding: 1rem 0;
+    top: 3px;
+}
+
+.user > svg{
+    font-size: 100px;
+    
+}
+
+.card_body{
+
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+}
+
+p{
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    margin:3px;
+    padding: 0 4px;
+    text-align: start;
+}
+.card_footer{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: #000000;
+    color: #f4f4f4;
+    border-radius: 0 0 18px 18px;
+ 
+}
+
+.user_address2, .user_address{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    margin:0.2rem;
+}
+
+button{
+    width: 140px;
+    padding:0.8rem;
+    border: 1px solid #6d73e5;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    color: #000000;
+    font-size: 1rem;
+    display: block;
+    min-width: 205px;
+    margin: 4px;
+    background-color: #000000;
+    color: #f4f4f4;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+}
+
+button:hover{
+  box-shadow: rgba(30, 96, 56, 0.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+@media (max-width: 600px) {
+   .contact_card{
+    min-width: none;
+    width: 90%;
+   }
+}
+@media (max-width: 440px) {
+    .contact_card{
+        min-width: 95%;
+    }
+}
