@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/usercontact_v1/static/css/main.9009882e.css",
+    "main.js": "/usercontact_v1/static/js/main.3c062c35.js",
+    "static/media/Loading Animation.gif": "/usercontact_v1/static/media/Loading Animation.9fd796bca883b22ba95c.gif",
+    "index.html": "/usercontact_v1/index.html",
+    "main.9009882e.css.map": "/usercontact_v1/static/css/main.9009882e.css.map",
+    "main.3c062c35.js.map": "/usercontact_v1/static/js/main.3c062c35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9009882e.css",
+    "static/js/main.3c062c35.js"
+  ]
+}
